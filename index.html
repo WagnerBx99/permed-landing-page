@@ -14,20 +14,19 @@
     <header class="header">
         <div class="container header-container">
             <a href="#" class="logo">
-                <img src="assets/images/Permedhorizontal.png" alt="PERMED - Perícias Médicas">
+                <svg class="logo-icon" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <circle cx="20" cy="20" r="18" stroke="#1e5a8a" stroke-width="2"/>
+                    <path d="M12 20h16M20 12v16M14 14l12 12M26 14l-12 12" stroke="#1e5a8a" stroke-width="2"/>
+                </svg>
+                <span class="logo-text">PERMED</span>
             </a>
             <nav class="nav-menu">
                 <a href="#servicos">Serviços</a>
-                <a href="#sobre">Sobre</a>
+                <a href="#para-quem">Para Quem</a>
                 <a href="#depoimentos">Depoimentos</a>
-                <a href="#contato">Contato</a>
+                <a href="#faq">FAQ</a>
             </nav>
-            <a href="https://wa.me/5534991131656" class="btn-whatsapp-header" target="_blank">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                </svg>
-                Chamar no WhatsApp
-            </a>
+            <a href="https://wa.me/5534991131656" class="btn-header" target="_blank">Solicitar Análise</a>
             <button class="mobile-menu-btn">
                 <span></span>
                 <span></span>
@@ -39,34 +38,71 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container hero-container">
-            <div class="hero-text">
+            <div class="hero-content">
+                <span class="hero-tag">Perícia Médica Trabalhista</span>
                 <h1>Prova Técnica para Casos Envolvendo Ações Trabalhistas</h1>
                 <p class="hero-subtitle">Atuamos na fase pré-processual e processual para trabalhadores, empresas e advogados que precisam comprovar, defender ou contestar alegações envolvendo incapacidade laboral, nexo causal ocupacional e retorno ao trabalho.</p>
                 <div class="hero-buttons">
-                    <a href="https://wa.me/5534991131656" class="btn btn-primary" target="_blank">Solicitar Análise Técnica</a>
-                    <a href="#servicos" class="btn btn-outline">Saiba Mais</a>
+                    <a href="https://wa.me/5534991131656" class="btn btn-primary" target="_blank">
+                        Solicitar Análise Técnica
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/5534991131656" class="btn btn-whatsapp" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        WhatsApp
+                    </a>
+                </div>
+                <div class="hero-badges">
+                    <div class="badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="#22c55e">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                        <span>Atendimento Nacional</span>
+                    </div>
+                    <div class="badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="#3b82f6">
+                            <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
+                        </svg>
+                        <span>Sigilo Garantido</span>
+                    </div>
+                    <div class="badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="#f59e0b">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2" stroke="white" stroke-width="2" fill="none"/>
+                        </svg>
+                        <span>Resposta em 24h</span>
+                    </div>
                 </div>
             </div>
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <span class="stat-number">+5.000</span>
-                    <span class="stat-label">casos atendidos</span>
+            <div class="hero-card">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">+5.000</span>
+                        <span class="stat-label">Casos Conduzidos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">+80%</span>
+                        <span class="stat-label">Taxa de Sucesso</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">+3.800</span>
+                        <span class="stat-label">Perícias Acompanhadas</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">+20</span>
+                        <span class="stat-label">Estados Atendidos</span>
+                    </div>
                 </div>
-                <div class="stat-item">
-                    <span class="stat-number">+80%</span>
-                    <span class="stat-label">taxa de sucesso</span>
+                <div class="card-footer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="#1e5a8a">
+                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                    </svg>
+                    <span>Referência Nacional em Perícia Médico-Legal</span>
                 </div>
-                <div class="stat-item">
-                    <span class="stat-number">+3.800</span>
-                    <span class="stat-label">perícias acompanhadas</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">+20</span>
-                    <span class="stat-label">estados atendidos</span>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="assets/images/PHOTO-2023-08-17-19-17-45.jpg" alt="Dr. Vinícius Nunes">
             </div>
         </div>
     </section>
@@ -192,33 +228,7 @@
                             <line x1="16" y1="17" x2="8" y2="17"></line>
                         </svg>
                     </div>
-                    <span>Prova técnica útil ao processo</span>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                    </div>
-                    <span>Laudo pericial estruturado</span>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                        </svg>
-                    </div>
-                    <span>Parecer médico fundamentado</span>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-                        </svg>
-                    </div>
-                    <span>Impugnação de laudo judicial</span>
+                    <h3>Laudo pericial estruturado</h3>
                 </div>
                 <div class="service-item">
                     <div class="service-icon">
@@ -227,16 +237,36 @@
                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                     </div>
-                    <span>Avaliação de nexo e incapacidade</span>
+                    <h3>Parecer médico fundamentado</h3>
                 </div>
                 <div class="service-item">
                     <div class="service-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="3"></circle>
-                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="15" y1="9" x2="9" y2="15"></line>
+                            <line x1="9" y1="9" x2="15" y2="15"></line>
                         </svg>
                     </div>
-                    <span>Quesitos para perícia</span>
+                    <h3>Impugnação de laudo judicial</h3>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 11l3 3L22 4"></path>
+                            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                        </svg>
+                    </div>
+                    <h3>Avaliação de nexo e incapacidade</h3>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                        </svg>
+                    </div>
+                    <h3>Quesitos para perícia</h3>
                 </div>
                 <div class="service-item">
                     <div class="service-icon">
@@ -247,21 +277,17 @@
                             <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                         </svg>
                     </div>
-                    <span>Orientação para retorno ao trabalho</span>
+                    <h3>Orientação para retorno ao trabalho</h3>
                 </div>
-            </div>
-
-            <div class="cta-center">
-                <a href="https://wa.me/5534991131656" class="btn btn-primary" target="_blank">Solicitar Análise Técnica</a>
             </div>
         </div>
     </section>
 
-    <!-- Seção Para Quem É -->
-    <section class="section-audience">
+    <!-- Seção Para Quem -->
+    <section class="section-audience" id="para-quem">
         <div class="container">
-            <h2>Para Quem É</h2>
-            <p class="section-intro">Atendemos três públicos principais, cada um com necessidades específicas no contexto trabalhista.</p>
+            <h2>Para Quem</h2>
+            <p class="section-intro">Nossos serviços são direcionados para todos os envolvidos em processos trabalhistas que dependem de prova técnica médica.</p>
             
             <div class="audience-grid">
                 <div class="audience-card">
@@ -272,27 +298,7 @@
                         </svg>
                     </div>
                     <h3>Trabalhadores</h3>
-                    <ul>
-                        <li>Comprovar doença ou acidente</li>
-                        <li>Demonstrar incapacidade</li>
-                        <li>Obter benefício, indenização ou estabilidade</li>
-                    </ul>
-                </div>
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                            <line x1="12" y1="17" x2="12.01" y2="17"></line>
-                        </svg>
-                    </div>
-                    <h3>Advogados</h3>
-                    <ul>
-                        <li>Fortalecer tese</li>
-                        <li>Desmontar laudo contrário</li>
-                        <li>Melhorar posição em acordo</li>
-                        <li>Ganhar robustez probatória</li>
-                    </ul>
+                    <p>Que precisam comprovar doença ocupacional, acidente de trabalho ou incapacidade laboral.</p>
                 </div>
                 <div class="audience-card">
                     <div class="audience-icon">
@@ -302,92 +308,71 @@
                         </svg>
                     </div>
                     <h3>Empresas</h3>
-                    <ul>
-                        <li>Reduzir passivo</li>
-                        <li>Contestar alegações técnicas</li>
-                        <li>Evitar acordos inflacionados</li>
-                        <li>Orientar retorno ao trabalho</li>
-                    </ul>
+                    <p>Que precisam contestar alegações infundadas ou reduzir valores de condenação.</p>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 8v4l3 3"></path>
+                        </svg>
+                    </div>
+                    <h3>Advogados</h3>
+                    <p>Que precisam de suporte técnico especializado para fortalecer suas teses.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Seção Por Que Importa Agora -->
+    <!-- Seção Por Que Importa AGORA -->
     <section class="section-urgency">
         <div class="container">
             <h2>Por Que Importa AGORA</h2>
-            <p class="section-intro">Nos casos trabalhistas, o tempo processual cria janelas estratégicas:</p>
+            <p class="section-intro">A prova técnica médica é decisiva em todas as fases do processo. Quanto antes você agir, maior a chance de sucesso.</p>
             
-            <div class="timeline">
+            <div class="urgency-timeline">
                 <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                    </div>
+                    <div class="timeline-number">1</div>
                     <div class="timeline-content">
-                        <h4>Antes da perícia</h4>
-                        <p>Quesitos + parecer prévio preparam o terreno do contraditório e tese</p>
+                        <h3>Fase Pré-Processual</h3>
+                        <p>Documentação adequada desde o início aumenta significativamente as chances de êxito.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                    </div>
+                    <div class="timeline-number">2</div>
                     <div class="timeline-content">
-                        <h4>Na perícia</h4>
-                        <p>A presença técnica evita conclusões equivocadas</p>
+                        <h3>Fase Processual</h3>
+                        <p>Quesitos bem elaborados e acompanhamento pericial fazem diferença no resultado.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                    </div>
+                    <div class="timeline-number">3</div>
                     <div class="timeline-content">
-                        <h4>Após o laudo</h4>
-                        <p>Impugnação pode reduzir condenação e melhorar acordo</p>
+                        <h3>Pós-Perícia</h3>
+                        <p>Impugnação técnica pode reverter laudos desfavoráveis.</p>
                     </div>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                    </div>
-                    <div class="timeline-content">
-                        <h4>Antes da sentença</h4>
-                        <p>Parecer técnico influencia decisão</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cta-center">
-                <a href="https://wa.me/5534991131656" class="btn btn-primary" target="_blank">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                    </svg>
-                    Chamar no WhatsApp Agora
-                </a>
             </div>
         </div>
     </section>
 
-    <!-- Seção Diferenciais -->
+    <!-- Seção Nossos Diferenciais -->
     <section class="section-differentials">
         <div class="container">
             <h2>Nossos Diferenciais</h2>
             
             <div class="differentials-grid">
-                <div class="differential-card">
+                <div class="differential-item">
+                    <div class="differential-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Experiência Comprovada</h3>
+                    <p>Mais de 5.000 casos conduzidos com alta taxa de sucesso.</p>
+                </div>
+                <div class="differential-item">
                     <div class="differential-icon">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
@@ -396,86 +381,123 @@
                             <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                         </svg>
                     </div>
-                    <h3>Junta Médica Especializada</h3>
-                    <p>Equipe multidisciplinar com especialistas em diversas áreas médicas.</p>
+                    <h3>Equipe Especializada</h3>
+                    <p>Médicos peritos com formação específica em medicina do trabalho.</p>
                 </div>
-                <div class="differential-card">
+                <div class="differential-item">
                     <div class="differential-icon">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
                         </svg>
                     </div>
-                    <h3>Integração Médico Jurídica</h3>
-                    <p>Traduzimos a linguagem médica para o contexto jurídico de forma clara.</p>
+                    <h3>Atendimento Nacional</h3>
+                    <p>Atuação em mais de 20 estados brasileiros.</p>
                 </div>
-                <div class="differential-card">
+                <div class="differential-item">
                     <div class="differential-icon">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="10" r="3"></circle>
-                            <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z"></path>
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                         </svg>
                     </div>
-                    <h3>Atuação Nacional em Todo Brasil</h3>
-                    <p>Atendemos em todos os estados brasileiros, presencialmente ou à distância.</p>
-                </div>
-                <div class="differential-card">
-                    <div class="differential-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
-                    </div>
-                    <h3>Foco no Resultado Técnico</h3>
-                    <p>Nosso compromisso é com a qualidade técnica e o resultado do seu caso.</p>
+                    <h3>Sigilo Total</h3>
+                    <p>Confidencialidade absoluta em todos os casos.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Seção Médico Diretor -->
-    <section class="section-doctor" id="sobre">
+    <section class="section-doctor">
         <div class="container">
-            <h2>Médico Diretor da Permed</h2>
-            
-            <div class="doctor-card">
+            <div class="doctor-content">
                 <div class="doctor-image">
                     <img src="assets/images/PHOTO-2023-08-17-19-17-45.jpg" alt="Dr. Vinícius Nunes">
                 </div>
                 <div class="doctor-info">
-                    <h3>Dr. Vinícius Nunes</h3>
-                    <p class="doctor-title">Médico Perito e Médico do Trabalho</p>
-                    <p class="doctor-crm">CRM-MG 77719 | RQE 61284 / RQE 64725</p>
-                    <ul class="doctor-credentials">
-                        <li>Autor de livros de perícia médica trabalhista e previdenciária</li>
-                        <li>Perito Judicial de Tribunais Trabalhistas, Cíveis e Federais</li>
-                        <li>Responsável pela curadoria técnica dos pareceres, quesitos, impugnações e laudos produzidos pela Permed</li>
-                    </ul>
-                    <p class="doctor-note">Nenhum documento técnico é entregue sem revisão e assinatura médica.</p>
+                    <h2>Dr. Vinícius Nunes</h2>
+                    <p class="doctor-title">Médico Diretor</p>
+                    <p class="doctor-bio">Médico com especialização em Medicina do Trabalho e vasta experiência em perícias médicas judiciais. Atua há mais de 10 anos na área, tendo conduzido milhares de casos em todo o Brasil.</p>
+                    <div class="doctor-credentials">
+                        <div class="credential">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>CRM ativo</span>
+                        </div>
+                        <div class="credential">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Especialista em Medicina do Trabalho</span>
+                        </div>
+                        <div class="credential">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Perito Judicial</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Seção Casos que Atendemos -->
+    <!-- Seção Casos Que Atendemos -->
     <section class="section-cases">
         <div class="container">
             <h2>Casos Que Atendemos</h2>
-            <p class="section-intro">Atuamos em diversos tipos de casos envolvendo saúde ocupacional e perícia médica.</p>
             
             <div class="cases-grid">
-                <div class="case-item">LER / DORT</div>
-                <div class="case-item">Síndrome do manguito rotador</div>
-                <div class="case-item">Hérnia de disco / radiculopatia</div>
-                <div class="case-item">Lombalgia / cervicalgia</div>
-                <div class="case-item">Sequelas pós-acidente</div>
-                <div class="case-item">Transtornos psiquiátricos</div>
-                <div class="case-item">PAIR / perda auditiva ocupacional</div>
-                <div class="case-item">Retorno ao trabalho / readaptação</div>
-                <div class="case-item">Concausa e agravamento</div>
-                <div class="case-item">Avaliação de B91 / B31</div>
+                <div class="case-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Doenças ocupacionais (LER/DORT, lombalgias, etc.)</span>
+                </div>
+                <div class="case-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Acidentes de trabalho típicos</span>
+                </div>
+                <div class="case-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Transtornos psiquiátricos relacionados ao trabalho</span>
+                </div>
+                <div class="case-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Perda auditiva ocupacional (PAIR)</span>
+                </div>
+                <div class="case-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Doenças respiratórias ocupacionais</span>
+                </div>
+                <div class="case-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Intoxicações ocupacionais</span>
+                </div>
+                <div class="case-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Estabilidade acidentária</span>
+                </div>
+                <div class="case-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Reintegração ao trabalho</span>
+                </div>
             </div>
         </div>
     </section>
@@ -488,55 +510,34 @@
             <div class="process-steps">
                 <div class="process-step">
                     <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h4>Recebemos o caso</h4>
-                        <p>Você nos envia os documentos e informações do processo.</p>
-                    </div>
+                    <h3>Recebemos o caso</h3>
+                    <p>Você nos envia os documentos e informações do processo.</p>
                 </div>
                 <div class="process-step">
                     <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h4>Analisamos os documentos</h4>
-                        <p>Nossa equipe médica analisa todo o histórico clínico e laboral.</p>
-                    </div>
+                    <h3>Analisamos os documentos</h3>
+                    <p>Nossa equipe médica analisa todo o histórico clínico e laboral.</p>
                 </div>
                 <div class="process-step">
                     <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h4>Realizamos os quesitos</h4>
-                        <p>Elaboramos quesitos técnicos estratégicos para a perícia.</p>
-                    </div>
+                    <h3>Realizamos os quesitos</h3>
+                    <p>Elaboramos quesitos técnicos estratégicos para a perícia.</p>
                 </div>
                 <div class="process-step">
                     <div class="step-number">4</div>
-                    <div class="step-content">
-                        <h4>Comparecemos na perícia judicial</h4>
-                        <p>Acompanhamos presencialmente ou orientamos para a perícia.</p>
-                    </div>
+                    <h3>Comparecemos na perícia judicial</h3>
+                    <p>Acompanhamos presencialmente ou orientamos para a perícia.</p>
                 </div>
                 <div class="process-step">
                     <div class="step-number">5</div>
-                    <div class="step-content">
-                        <h4>Elaboramos o Parecer</h4>
-                        <p>Produzimos parecer técnico fundamentado para o processo.</p>
-                    </div>
+                    <h3>Elaboramos o Parecer</h3>
+                    <p>Produzimos parecer técnico fundamentado para o processo.</p>
                 </div>
                 <div class="process-step">
                     <div class="step-number">6</div>
-                    <div class="step-content">
-                        <h4>Oferecemos suporte até a sentença</h4>
-                        <p>Acompanhamos o caso até a conclusão do processo.</p>
-                    </div>
+                    <h3>Oferecemos suporte até a sentença</h3>
+                    <p>Acompanhamos o caso até a conclusão do processo.</p>
                 </div>
-            </div>
-
-            <div class="cta-center">
-                <a href="https://wa.me/5534991131656" class="btn btn-primary" target="_blank">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                    </svg>
-                    Chamar no WhatsApp Agora
-                </a>
             </div>
         </div>
     </section>
@@ -544,125 +545,65 @@
     <!-- Seção Depoimentos -->
     <section class="section-testimonials" id="depoimentos">
         <div class="container">
-            <h2>O Que Nossos Clientes Dizem</h2>
+            <h2>O Que Dizem Nossos Clientes</h2>
             
             <div class="testimonials-grid">
                 <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="testimonial-avatar">
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="12" cy="7" r="4"></circle>
-                            </svg>
-                        </div>
-                        <div class="testimonial-info">
-                            <span class="testimonial-name">Escritório trabalhista</span>
-                            <span class="testimonial-location">São Paulo</span>
-                        </div>
-                        <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"A PERMED foi fundamental para o sucesso da minha causa. O parecer técnico fez toda a diferença no resultado."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Maria S.</span>
+                        <span class="author-role">Trabalhadora</span>
                     </div>
-                    <p class="testimonial-text">"A assistência técnica com a Permed nos surpreendeu. Em 2023 chegou ao escritório um cliente com acidente de trabalho e sequela que, pela jurisprudência, estimávamos em no máximo 4% de incapacidade. A Permed conseguiu demonstrar ao perito oficial que a incapacidade era de 20%. No final, o cliente recebeu uma indenização 5 vezes maior do que estávamos esperando."</p>
                 </div>
-
                 <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="testimonial-avatar">
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="12" cy="7" r="4"></circle>
-                            </svg>
-                        </div>
-                        <div class="testimonial-info">
-                            <span class="testimonial-name">Jurídico e RH</span>
-                            <span class="testimonial-location">Setor Alimentício</span>
-                        </div>
-                        <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Excelente trabalho técnico. A impugnação do laudo reverteu completamente a situação do processo."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Dr. Carlos M.</span>
+                        <span class="author-role">Advogado Trabalhista</span>
                     </div>
-                    <p class="testimonial-text">"Estávamos diante de risco de reintegração com estabilidade e salários vencidos. O parecer feito pelo Dr. Vinícius, médico do trabalho da Permed, demonstrou ausência de incapacidade atual. O acordo saiu com passivo 80% menor e sem reintegração. Hoje, assistência técnica em processos trabalhistas é parte da nossa estratégia."</p>
                 </div>
-
                 <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="testimonial-avatar">
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="12" cy="7" r="4"></circle>
-                            </svg>
-                        </div>
-                        <div class="testimonial-info">
-                            <span class="testimonial-name">Advogada trabalhista</span>
-                            <span class="testimonial-location">Rio de Janeiro</span>
-                        </div>
-                        <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Conseguimos reduzir significativamente o valor da condenação graças ao trabalho da equipe PERMED."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Empresa XYZ</span>
+                        <span class="author-role">Cliente Corporativo</span>
                     </div>
-                    <p class="testimonial-text">"A presença da assistência técnica muda completamente o cenário. Com o suporte, estruturamos quesitos, organizamos o histórico e posicionamos o caso. O perito entende o nexo e o acordo sai sempre antes da sentença."</p>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="testimonial-avatar">
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="12" cy="7" r="4"></circle>
-                            </svg>
-                        </div>
-                        <div class="testimonial-info">
-                            <span class="testimonial-name">Trabalhador</span>
-                            <span class="testimonial-location">Belo Horizonte</span>
-                        </div>
-                        <div class="testimonial-stars">★★★★★</div>
-                    </div>
-                    <p class="testimonial-text">"Eu não sabia que precisava de perguntas específicas para o perito judicial. Descobri isso quando assisti um vídeo da Permed no Instagram explicando o papel dos quesitos. Percebi que sem essas perguntas o perito não teria acesso a informações importantes do meu caso. Foi aí que resolvi contratar a Permed. Os quesitos deixaram claro como o meu trabalho afetou minha saúde e demonstraram o nexo causal ocupacional. Foi decisivo para o reconhecimento dos meus direitos."</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Seção Números -->
+    <!-- Seção Nossos Números -->
     <section class="section-numbers">
         <div class="container">
             <h2>Nossos Números</h2>
             
             <div class="numbers-grid">
                 <div class="number-item">
-                    <span class="number-value">+5.000</span>
-                    <span class="number-label">casos atendidos</span>
-                </div>
-                <div class="number-item">
-                    <span class="number-value">+3.800</span>
-                    <span class="number-label">perícias acompanhadas</span>
-                </div>
-                <div class="number-item">
-                    <span class="number-value">+4.500</span>
-                    <span class="number-label">relatórios técnicos</span>
-                </div>
-                <div class="number-item">
-                    <span class="number-value">+500</span>
-                    <span class="number-label">escritórios parceiros</span>
-                </div>
-                <div class="number-item">
-                    <span class="number-value">+20</span>
-                    <span class="number-label">estados atendidos</span>
+                    <span class="number-value" data-target="5000">+5.000</span>
+                    <span class="number-label">Casos Conduzidos</span>
                 </div>
                 <div class="number-item">
                     <span class="number-value">+80%</span>
-                    <span class="number-label">taxa de sucesso</span>
+                    <span class="number-label">Taxa de Sucesso</span>
                 </div>
-            </div>
-
-            <div class="cta-center">
-                <a href="https://wa.me/5534991131656" class="btn btn-primary btn-large" target="_blank">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                    </svg>
-                    Solicitar Análise Técnica
-                </a>
+                <div class="number-item">
+                    <span class="number-value" data-target="3800">+3.800</span>
+                    <span class="number-label">Perícias Acompanhadas</span>
+                </div>
+                <div class="number-item">
+                    <span class="number-value" data-target="20">+20</span>
+                    <span class="number-label">Estados Atendidos</span>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Seção FAQ -->
-    <section class="section-faq">
+    <section class="section-faq" id="faq">
         <div class="container">
             <h2>Perguntas Frequentes</h2>
             
@@ -675,10 +616,9 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Sim. Essa é uma das melhores janelas. Preparamos quesitos, parecer prévio e orientamos a presença na perícia.</p>
+                        <p>Sim, ainda dá tempo. Mesmo com a perícia próxima, podemos elaborar quesitos estratégicos e orientar sobre como se portar durante o exame pericial. O ideal é nos contatar o quanto antes para maximizar as chances de sucesso.</p>
                     </div>
                 </div>
-
                 <div class="faq-item">
                     <button class="faq-question">
                         <span>Já passei pela perícia. Ainda tem o que fazer?</span>
@@ -687,10 +627,9 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Sim. Atuamos com parecer pós-perícia e auxiliamos na complementação dos quesitos.</p>
+                        <p>Sim! Após a perícia, ainda é possível elaborar parecer técnico sobre o laudo do perito oficial, impugnar conclusões equivocadas e solicitar esclarecimentos. Muitos casos são revertidos nessa fase.</p>
                     </div>
                 </div>
-
                 <div class="faq-item">
                     <button class="faq-question">
                         <span>O laudo já saiu. Ainda faz sentido contratar?</span>
@@ -699,10 +638,9 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Sim. Essa é a fase própria da impugnação técnica, onde podemos apontar falhas, omissões e melhorar as conclusões finais.</p>
+                        <p>Faz sentido sim. Podemos analisar o laudo e identificar pontos técnicos que podem ser contestados. A impugnação técnica bem fundamentada pode mudar o rumo do processo.</p>
                     </div>
                 </div>
-
                 <div class="faq-item">
                     <button class="faq-question">
                         <span>O juiz aceita o laudo da assistência técnica?</span>
@@ -711,10 +649,9 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Sim. A legislação garante contraditório técnico. As partes têm direito de produzir prova própria.</p>
+                        <p>Sim. O parecer do assistente técnico é prova legítima e deve ser considerado pelo juiz. Quando bem fundamentado, pode influenciar decisivamente na sentença.</p>
                     </div>
                 </div>
-
                 <div class="faq-item">
                     <button class="faq-question">
                         <span>O perito oficial vai considerar nossos argumentos?</span>
@@ -723,10 +660,9 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Peritos consideram o que está nos autos. Por isso atuamos via quesitos, pareceres e impugnações dentro do processo.</p>
+                        <p>O perito oficial é obrigado a responder aos quesitos apresentados pelas partes. Quesitos bem elaborados direcionam a análise pericial e podem evidenciar pontos importantes para o caso.</p>
                     </div>
                 </div>
-
                 <div class="faq-item">
                     <button class="faq-question">
                         <span>Ainda não tenho advogado. Isso inviabiliza?</span>
@@ -735,10 +671,9 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Não. Atuamos antes do jurídico e, quando necessário, fazemos o encaminhamento para escritório parceiro.</p>
+                        <p>Não inviabiliza. Podemos iniciar a análise técnica do seu caso e, se necessário, indicar advogados parceiros especializados em direito trabalhista.</p>
                     </div>
                 </div>
-
                 <div class="faq-item">
                     <button class="faq-question">
                         <span>Sou trabalhador. Isso ajuda no meu caso?</span>
@@ -747,10 +682,9 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Sim. Auxilia a demonstrar nexo, incapacidade e repercussões ocupacionais — elementos que não aparecem no prontuário clínico comum.</p>
+                        <p>Sim! A assistência técnica ajuda a comprovar tecnicamente a relação entre sua condição de saúde e o trabalho, fortalecendo sua posição no processo.</p>
                     </div>
                 </div>
-
                 <div class="faq-item">
                     <button class="faq-question">
                         <span>Sou empresa. Isso não aumenta conflito?</span>
@@ -759,10 +693,9 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Não. Prova técnica traz proporcionalidade e dados concretos, evitando acordos inflacionados e decisões desproporcionais.</p>
+                        <p>Não. A assistência técnica é um direito legal e demonstra que a empresa está buscando a verdade técnica. Pode inclusive facilitar acordos justos para ambas as partes.</p>
                     </div>
                 </div>
-
                 <div class="faq-item">
                     <button class="faq-question">
                         <span>Casos psiquiátricos precisam disso?</span>
@@ -771,10 +704,9 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Muito. São os que mais dependem de estruturação técnica pela subjetividade e fragmentação do histórico.</p>
+                        <p>Especialmente casos psiquiátricos! O nexo causal em transtornos mentais é complexo e frequentemente mal avaliado. A assistência técnica especializada é fundamental.</p>
                     </div>
                 </div>
-
                 <div class="faq-item">
                     <button class="faq-question">
                         <span>Meu médico já me acompanha. Isso não basta?</span>
@@ -783,10 +715,9 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>O médico assistente avalia o tratamento. A perícia judicial avalia repercussão funcional e laboral. São análises diferentes.</p>
+                        <p>O médico assistente trata sua saúde, mas não tem expertise em perícia judicial. O assistente técnico traduz sua condição clínica para a linguagem jurídica necessária ao processo.</p>
                     </div>
                 </div>
-
                 <div class="faq-item">
                     <button class="faq-question">
                         <span>Isso não fica caro?</span>
@@ -795,10 +726,9 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>O alto custo está na incerteza. Em casos que envolvem perícia, assistência técnica não é gasto — é estratégia econômica.</p>
+                        <p>O investimento em assistência técnica é pequeno comparado aos valores envolvidos em ações trabalhistas. O retorno pode ser de 50 a 200 vezes o valor investido.</p>
                     </div>
                 </div>
-
                 <div class="faq-item">
                     <button class="faq-question">
                         <span>Isso realmente dá resultado?</span>
@@ -807,23 +737,19 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Sim. Em média, cada R$ 1 investido pode retornar entre 10× e 200× em termos de valor recuperado ou economizado.</p>
+                        <p>Sim! Nossa taxa de sucesso é superior a 80%. Temos mais de 5.000 casos conduzidos e milhares de clientes satisfeitos em todo o Brasil.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Seção CTA Final -->
-    <section class="section-final-cta" id="contato">
+    <!-- CTA Final -->
+    <section class="section-cta">
         <div class="container">
-            <h2>Pronto Para Fortalecer Seu Caso?</h2>
-            <p>Não perca processos, direitos ou recursos por falta de prova técnica. Delegue a análise médico-ocupacional para quem faz isso todos os dias.</p>
-            
-            <a href="https://wa.me/5534991131656" class="btn btn-primary btn-large" target="_blank">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                </svg>
+            <h2>Pronto para Fortalecer Seu Caso?</h2>
+            <p>Entre em contato agora e receba uma análise técnica do seu caso.</p>
+            <a href="https://wa.me/5534991131656" class="btn btn-cta" target="_blank">
                 Solicitar Análise Técnica do Caso
             </a>
         </div>
@@ -831,19 +757,36 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-logo">
-                <img src="assets/images/PermedBranca.png" alt="PERMED - Perícias Médicas">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg class="logo-icon" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <circle cx="20" cy="20" r="18" stroke="white" stroke-width="2"/>
+                        <path d="M12 20h16M20 12v16M14 14l12 12M26 14l-12 12" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <span>PERMED</span>
+                </div>
+                <div class="footer-contact">
+                    <p>WhatsApp: (34) 99113-1656</p>
+                    <p>contato@permed.com.br</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://wa.me/5534991131656" target="_blank" aria-label="WhatsApp">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                    </a>
+                </div>
             </div>
-            <div class="footer-info">
-                <p>© 2024 PERMED - Perícias Médicas. Todos os direitos reservados.</p>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PERMED - Perícias Médicas. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
 
     <!-- WhatsApp Float Button -->
-    <a href="https://wa.me/5534991131656" class="whatsapp-float" target="_blank">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+    <a href="https://wa.me/5534991131656" class="whatsapp-float" target="_blank" aria-label="Chamar no WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
         </svg>
     </a>
